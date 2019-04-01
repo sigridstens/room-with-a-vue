@@ -1,0 +1,25 @@
+html {
+    background-image: url("https://www.outtherecolorado.com/wp-content/uploads/2017/03/e9bb2a136a67b3aa4f28fa89ff2e9e1f-1024x897.jpg");
+    background-repeat: no-repeat;
+    background-size: auto 100vh;
+}
+
+#app {
+    margin: 50vh auto;
+    transform: translateY(-50%);
+    max-width: 80%;
+    font-family: Helvetica, sans-serif;
+    background-color: rgba(255, 255, 255, 0.46);
+    padding: 1em 4em 2em 4em;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 3em;
+}
+
+li {
+    padding: .75em 0;
+}
+

@@ -1,12 +1,4 @@
-//Implement Vue in an HTML page using the CDN link. (find this on the Vue.js Installation Guide)
-//On a linked JavaScript page, use the data property to create 10 facts about llamas. (How I've missed the llamas!) Example :
-
-
-//Target a div on your page with the el propety. Then on your html page, create a list of facts using the double curly brackets to bind the data from the javascript into the html.
-
-    //Additionally, use v-if to conditionally display or hide one of your facts. You do not need to worry about including an event to change the condition. I just want to see that you can do it.
-
-//New instance of Vue class
+//New instance of Vue class to display 10 llama facts.
 new Vue({
     el: "#app",
     data:{
@@ -23,7 +15,7 @@ new Vue({
         avgWeight: 105,
         avgWeightUnit: "kilos",
         furColors: ["brown", "black", "white", "cookies and creme", "champagne llama"],
-        ism: "Ain't no drama like a llama's drama."
+        motto: "Ain't no drama like a llama's drama."
     }
 });
 

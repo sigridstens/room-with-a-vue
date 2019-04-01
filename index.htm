@@ -10,20 +10,21 @@
     <div id="app">
         <h1>LLama-rama!</h1>
         <h2>10 fun facts about llamas</h2>
-        <ul>
+        <ol>
             <li>{{llamaGrooming}}</li>
-            <li>The average age of a llama is {{avgAge}}</li>
+            <li>The average age of a llama is {{avgAge}}.</li>
             <li v-if="booLayEggs == true">Llamas lay eggs.</li>
             <li v-else>Llamas do not lay eggs.</li>
-            <li v-if="booSleepStandingUp == true">Llamas sleep standing up</li>
+            <li v-if="booSleepStandingUp == true">Llamas sleep standing up.</li>
             <li>Llama's are known as nature's speedsters. They can reach top speeds of up to {{topSpeed}} {{topSpeedUnit}}.</li>
             <li>A Llama's diet consists of {{favFoods[0]}}, {{favFoods[1]}}, {{favFoods[2]}}, and {{favFoods[3]}}.</li>
             <li>Llama's have an average of {{avgBabyCount}} young.</li>
             <li>Llamas reach an average height of {{avgHeight}} {{avgHeightUnit}}.</li>
             <li>Llama's weigh in at an average of {{avgWeight}} {{avgWeightUnit}}.</li>
+            <li>Llama's fur comes in a variety of colors, including: {{furColors[0]}}, {{furColors[1]}}, {{furColors[2]}}, {{furColors[3]}}, and {{furColors[4]}} </li>
+            <li>The fundamental motto of llamaism is: "{{motto}}"</li>
 
-
-        </ul>
+        </ol>
     </div>
 
   </body>
